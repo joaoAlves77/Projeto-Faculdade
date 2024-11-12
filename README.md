@@ -7,7 +7,6 @@ Este é um projeto de sistema de locadora de filmes desenvolvido em Java, utiliz
 O sistema permite:
 - **Incluir**: Cadastrar novos filmes.
 - **Listar**: Exibir a lista completa de filmes cadastrados.
-- **Pesquisar**: Buscar filmes pelo título.
 - **Editar**: Alterar informações de um filme existente.
 - **Excluir**: Remover um filme do sistema.
 
@@ -15,8 +14,31 @@ O sistema permite:
 
 - **Java** (Servlets)
 - **JSP** (JavaServer Pages)
+-  **Html** (HTML)
+-  **Css** (CSS)
 - **MySQL** (Banco de Dados)
 - **JDBC** (Java Database Connectivity)
 
-## Estrutura do Projeto
+## Pré-requisitos
+
+- **JDK 8** ou superior
+- **Apache Tomcat** 9 ou superior
+- **MySQL** 5.7 ou superior
+- **MySQL Connector/J** (`mysql-connector-java.jar`) para conexão com o banco de dados
+
+## Configuração do Banco de Dados
+
+1. Acesse o MySQL e crie o banco de dados e a tabela com o seguinte comando SQL:
+
+   ```sql
+   CREATE DATABASE locadora;
+   USE locadora;
+
+   CREATE TABLE filmes (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       nome VARCHAR(255) NOT NULL,
+       autor VARCHAR(100),
+       descricao VARCHAR(250)
+   );
+
 
