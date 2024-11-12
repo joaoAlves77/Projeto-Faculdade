@@ -31,8 +31,8 @@ O sistema permite:
 1. Acesse o MySQL e crie o banco de dados e a tabela com o seguinte comando SQL:
 
    ```sql
-   CREATE DATABASE locadora;
-   USE locadora;
+   CREATE DATABASE dbfilme;
+   USE dbfilme;
 
    CREATE TABLE filmes (
        id INT AUTO_INCREMENT PRIMARY KEY,
