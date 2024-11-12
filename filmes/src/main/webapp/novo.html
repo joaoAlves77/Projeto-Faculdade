@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Locadora - Novo</title>
+<link rel="icon" href="imagens/icone.png"/>
+<link rel="stylesheet" href="form-styles.css" />
+</head>
+<body>
+	<h1>Adicionar novo filme</h1>
+	<form name="frmFilme" action="insert">
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="nome" placeholder="Nome">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" name="autor" placeholder="Autor">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" name="descricao" placeholder="Descrição">
+				</td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" onclick="verificar()">
+	</form>
+	<script src="scripts/verificar.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o título */
+h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Estilo para o botão "Novo Filme" */
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho da tabela */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* Estilo das linhas da tabela */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para os links de "Editar" e "Excluir" */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+.Botao2 {
+    color: #ff0000;
+}
+
+.Botao2:hover {
+    color: #cc0000;
+}
