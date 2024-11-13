@@ -41,4 +41,4 @@ O sistema permite:
        descricao VARCHAR(250)
    );
 
-
+![image](https://github.com/user-attachments/assets/4483c818-8db8-4274-82d0-336641af5384)
